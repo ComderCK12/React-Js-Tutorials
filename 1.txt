@@ -1,1 +1,10 @@
 This is a tutorial for ReactJs
+
+ReactJS is an open-source JavaScript library that is used for building user interfaces (UIs) for web applications. Developed by Facebook, React allows developers to build UI components that can be reused and easily managed. React uses a declarative approach to build UIs, where developers simply declare what they want to see on the screen, and React takes care of updating the UI when necessary.
+
+React is often used in conjunction with other libraries and frameworks, such as Redux, React Router, and Next.js, to build complex web applications. It is known for its fast rendering speed, efficient memory usage, and excellent developer experience.
+
+React is widely used in the tech industry by companies such as Facebook, Instagram, Airbnb, and Netflix. Its popularity has made it one of the most sought-after skills for web developers.
+
+
+React is Declarative and Component Based
