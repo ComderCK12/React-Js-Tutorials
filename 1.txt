@@ -8,3 +8,92 @@ React is widely used in the tech industry by companies such as Facebook, Instagr
 
 
 React is Declarative and Component Based
+
+
+Folder structures
+package.json - Dependencies and Scripts
+package-lock.json - Dependency Tree and Version Locking 
+node_modules - All the dependencies and sub-dependencies 
+
+################################################################################################################
+
+# Components
+Part of UI
+Reuseable and can be nested
+
+1. Functional Components
+2. Class Components
+3. Pure Components
+4. Higher Order Components
+5. Render Props
+6. Hooks
+7. Context API
+8. Error Boundaries
+9. Fragments
+
+
+Components of an App 
+1. Header
+2. Footer
+3. Sidebar
+4. Content
+5. Root App
+
+# Component types
+1. Stateless Functional Components - Js functions
+Example -
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+
+2. Stateful Class Components - Class extending React.Component, Render method returning HTML
+Example - 
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+
+################################################################################################################
+
+# Functional Components
+
+Propeties (props) ------> JavaScript Function ------> HTML
+Receive props and return HTML which describes the UI
+
+How to create ?
+
+1. We created a new folder components and inside that folder we created a new file called greet.js
+2. Inside that file we created a function called greet and exported it.
+3. In the App.js file we imported the greet function and used it.
+
+
+# Exporting a function
+
+1.
+const Greet = () => <h1>Hello Duniya </h1>
+export default Greet
+
+Exporting like this allows us to import it in any other file and use it with the same name.
+==> import Greet from './components/greet';
+
+2. 
+export const Greet = () => <h1>Hello Duniya </h1>
+
+For using this in the App.js we need to import it like this
+==> import { Greet } from './components/greet';
+
+################################################################################################################
+
+# Class Components
+
+Properties (props) ------> ES6 Class ------> Render Method ------> HTML
+
+
+class Welcome extends Component {
+    render() {
+        return <h1>Hello Duniya from Class Component</h1>
+    }
+}
+
