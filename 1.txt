@@ -97,3 +97,16 @@ class Welcome extends Component {
     }
 }
 
+################################################################################################################
+# Hooks
+
+In React, hooks are functions that allow you to use state and other React features in functional components, which are a type of component that doesn't have a class definition. 
+
+################################################################################################################
+
+# JSX
+
+JavaScript XML
+ It is a syntax extension to JavaScript that allows you to write HTML-like code in your JavaScript files. JSX is commonly used with React, but it can be used with other JavaScript frameworks or libraries as well.
+
+ 
